@@ -1,0 +1,9 @@
+{"benchmark": "toy-benchmark", "pinned_commit_or_version": "v1.0", "pinned_date": "2026-01-15",
+ "rows": [
+  {"id": "p1", "problem": "Smallest known ratio for toy inequality A", "direction": "min", "target_value": 1.50, "prev_best": 1.60, "notes": ""},
+  {"id": "p2", "problem": "Largest known size for toy packing B", "direction": "max", "target_value": 40, "prev_best": 38, "notes": ""},
+  {"id": "p3", "problem": "Smallest known constant for toy bound C", "direction": "min", "target_value": 0.90, "prev_best": 0.95, "notes": ""},
+  {"id": "p4", "problem": "Largest known density for toy set D", "direction": "max", "target_value": 0.25, "prev_best": 0.24, "notes": ""},
+  {"id": "p5", "problem": "Smallest known width for toy cover E", "direction": "min", "target_value": 12, "prev_best": 13, "notes": ""},
+  {"id": "p6", "problem": "Largest known count for toy design F", "direction": "max", "target_value": 100, "prev_best": 96, "notes": ""}
+ ]}

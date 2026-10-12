@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use freshcheck, please cite the audit that introduced the method."
+title: "freshcheck"
+version: 0.1.0
+license: MIT
+authors:
+  - family-names: Thalluri
+    given-names: Advatiya
+repository-code: "https://github.com/maximusrufus/freshcheck"
+abstract: "A dependency-free command-line tool that structures and validates literature audits of best-known benchmark tables."
+preferred-citation:
+  type: dataset
+  title: "Audit of \"best known\" tables in AI-driven mathematics"
+  authors:
+    - family-names: Thalluri
+      given-names: Advatiya
+  doi: 10.5281/zenodo.23324073
+  year: 2026
+  publisher:
+    name: Zenodo

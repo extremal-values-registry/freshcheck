@@ -1,0 +1,7 @@
+problem_id,search_date,searcher,verdict,better_value,source,source_date,source_kind,queries_run,notes
+p1,2026-10-11,alice,STALE,1.45,https://example.org/papers/toy-A.pdf,2026-03-02,primary,3,"Theorem 2: the ratio is at most 1.45"
+p2,2026-10-11,alice,CURRENT,,,,,4,last query: toy packing B record
+p3,2026-10-11,alice,MALFORMED,,,,,2,"pinned text '0.90 (proven lower bound)' is a bound not a best-known value"
+p4,2026-10-11,alice,STALE,0.26,https://example.org/papers/toy-D.pdf,2025-11-20,primary,3,"We construct a set of density 0.26"
+p5,2026-10-11,alice,UNCLEAR,,,,,3,primary source behind a paywall
+p6,2026-10-11,alice,CURRENT,,,,,4,last query: toy design F count

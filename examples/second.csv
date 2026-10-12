@@ -1,0 +1,4 @@
+problem_id,search_date,searcher,verdict,better_value,source,source_date,source_kind,queries_run,notes
+p2,2026-10-11,bob,CURRENT,,,,,3,last query: toy packing B record
+p3,2026-10-11,bob,MALFORMED,,,,,2,"pinned value is a proven bound"
+p4,2026-10-11,bob,CURRENT,,,,,3,last query: toy set D density

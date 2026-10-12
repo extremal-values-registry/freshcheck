@@ -1,0 +1,5 @@
+Description:
+Dependency-free CLI to audit whether a benchmark's "best known" values are stale: frozen targets, blind second-pass sampling, agreement statistics, dated reports.
+
+Topics:
+benchmarks, reproducibility, literature-audit, research-tools, evaluation, mathematics, data-quality, inter-rater-agreement, cli, python
