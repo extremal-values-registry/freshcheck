@@ -147,7 +147,7 @@ rows, never the original verdicts. The cut-off date is the search date. Then com
 
 Cite the method through the audit dataset, and the registry for corrected values:
 
-> Thalluri, A. (2026). Audit of "best known" tables in AI-driven mathematics. Zenodo.
+> Thalluri, A. (2026). Audit of stale "best known" targets in AI-mathematics benchmarks (data). Zenodo.
 > https://doi.org/10.5281/zenodo.23324073
 > Thalluri, A. (2026). Extremal Values Registry (v0.1.0). Zenodo.
 > https://doi.org/10.5281/zenodo.23326559
@@ -155,7 +155,7 @@ Cite the method through the audit dataset, and the registry for corrected values
 ```bibtex
 @dataset{thalluri2026audit,
   author    = {Thalluri, Advatiya},
-  title     = {Audit of "best known" tables in AI-driven mathematics},
+  title     = {Audit of stale "best known" targets in AI-mathematics benchmarks (data)},
   year      = {2026},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.23324073}

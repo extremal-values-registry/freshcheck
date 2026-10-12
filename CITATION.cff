@@ -10,7 +10,7 @@ repository-code: "https://github.com/maximusrufus/freshcheck"
 abstract: "A dependency-free command-line tool that structures and validates literature audits of best-known benchmark tables."
 preferred-citation:
   type: dataset
-  title: "Audit of \"best known\" tables in AI-driven mathematics"
+  title: "Audit of stale \"best known\" targets in AI-mathematics benchmarks (data)"
   authors:
     - family-names: Thalluri
       given-names: Advatiya
