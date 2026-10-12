@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "freshcheck"
+version = "0.1.0"
+description = "Keep a benchmark's best-known table fresh: structure and validate a literature audit."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+freshcheck = "freshcheck.cli:main"
+
+[tool.setuptools]
+packages = ["freshcheck"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
