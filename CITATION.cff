@@ -6,7 +6,7 @@ license: MIT
 authors:
   - family-names: Thalluri
     given-names: Advatiya
-repository-code: "https://github.com/maximusrufus/freshcheck"
+repository-code: "https://github.com/extremal-values-registry/freshcheck"
 abstract: "A dependency-free command-line tool that structures and validates literature audits of best-known benchmark tables."
 preferred-citation:
   type: dataset
