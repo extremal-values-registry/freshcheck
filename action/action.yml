@@ -1,0 +1,30 @@
+name: freshcheck due rows
+description: Check a "best known" table for rows due a literature check and open one tracking issue.
+inputs:
+  targets:
+    description: Path to targets.json
+    required: true
+  rows:
+    description: Path to the latest rows CSV (optional)
+    required: false
+    default: ""
+  stale_days:
+    description: A row is due when its last check is older than this many days
+    required: false
+    default: "90"
+  open_issue:
+    description: Open or update one tracking issue when rows are due
+    required: false
+    default: "true"
+runs:
+  using: composite
+  steps:
+    - name: Check rows
+      shell: bash
+      env:
+        FC_TARGETS: ${{ inputs.targets }}
+        FC_ROWS: ${{ inputs.rows }}
+        FC_STALE_DAYS: ${{ inputs.stale_days }}
+        FC_OPEN_ISSUE: ${{ inputs.open_issue }}
+        GITHUB_TOKEN: ${{ github.token }}
+      run: python "${{ github.action_path }}/run.py"

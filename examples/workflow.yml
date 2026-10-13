@@ -1,0 +1,19 @@
+name: freshcheck
+on:
+  schedule:
+    - cron: "0 6 1 * *"   # monthly
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  due-rows:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: OWNER/freshcheck/action@v0.1
+        with:
+          targets: targets.json
+          rows: rows_latest.csv
+          stale_days: "90"
+          open_issue: "true"
