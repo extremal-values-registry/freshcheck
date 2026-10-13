@@ -4,17 +4,14 @@ title: "freshcheck"
 version: 0.1.0
 license: MIT
 authors:
-  - family-names: Thalluri
-    given-names: Advatiya
+  - name: "Extremal Values Registry maintainers"
 repository-code: "https://github.com/extremal-values-registry/freshcheck"
 abstract: "A dependency-free command-line tool that structures and validates literature audits of best-known benchmark tables."
 preferred-citation:
   type: dataset
   title: "Audit of stale \"best known\" targets in AI-mathematics benchmarks (data)"
   authors:
-    - family-names: Thalluri
-      given-names: Advatiya
-  doi: 10.5281/zenodo.23324073
+    - name: "Extremal Values Registry maintainers"
   year: 2026
   publisher:
     name: Zenodo

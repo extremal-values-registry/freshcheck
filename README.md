@@ -14,7 +14,6 @@ sample, inter-searcher agreement, and a time-series report.
 ## Why
 
 We audited five public "best known" tables used to evaluate AI-driven mathematics
-(audit data: https://doi.org/10.5281/zenodo.23324073):
 
 - **69 of 268 targets (25.7%)** were superseded or not scoreable as written.
 - **48 of 231 AI-discovery improvement claims (20.8%)** had an equal-or-better value published
@@ -27,7 +26,7 @@ We audited five public "best known" tables used to evaluate AI-driven mathematic
   The decay is specific to young AI-era tables.
 
 If your table is young and fast-moving, assume it has the same problem and measure it.
-The corrected values live in the [Extremal Values Registry](https://doi.org/10.5281/zenodo.23326558).
+The corrected values live in the [Extremal Values Registry](https://github.com/extremal-values-registry/extremal-values-registry).
 
 ## 2-minute quickstart
 
@@ -147,27 +146,23 @@ rows, never the original verdicts. The cut-off date is the search date. Then com
 
 Cite the method through the audit dataset, and the registry for corrected values:
 
-> Thalluri, A. (2026). Audit of stale "best known" targets in AI-mathematics benchmarks (data). Zenodo.
-> https://doi.org/10.5281/zenodo.23324073
-> Thalluri, A. (2026). Extremal Values Registry (v0.1.0). Zenodo.
-> https://doi.org/10.5281/zenodo.23326559
+> Extremal Values Registry maintainers (2026). Audit of stale "best known" targets in AI-mathematics benchmarks (data). Zenodo.
+> Extremal Values Registry maintainers (2026). Extremal Values Registry (v0.1.0). Zenodo.
 
 ```bibtex
-@dataset{thalluri2026audit,
-  author    = {Thalluri, Advatiya},
+@dataset{evr2026audit,
+  author    = {{Extremal Values Registry maintainers}},
   title     = {Audit of stale "best known" targets in AI-mathematics benchmarks (data)},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.23324073}
 }
 
-@dataset{thalluri2026extremal,
-  author    = {Thalluri, Advatiya},
+@dataset{evr2026,
+  author    = {{Extremal Values Registry maintainers}},
   title     = {Extremal Values Registry},
   year      = {2026},
   version   = {0.1.0},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.23326559}
 }
 ```
 
